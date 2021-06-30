@@ -280,7 +280,10 @@ html {
   margin: 10px;
 }
 
-
+.footer{
+  background: var(--pure-dark);
+  color: var(--blue-beau);
+}
 
 
 /* phone screens */

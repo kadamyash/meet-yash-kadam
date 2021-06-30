@@ -57,6 +57,7 @@ function App() {
       <Work></Work>
       <Axebow></Axebow>
       <Contact></Contact>
+      <div class="footer">This porfolio and work belongs to Yash Kadam, except the 2D illustrations (iconscout). Do not copy/sell the content!</div>
     </div>
   );
 }
