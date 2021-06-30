@@ -3,15 +3,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTwitter,faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { Pane } from 'evergreen-ui'
-import Person from "../assets/person-attribution-needed.png" 
+import RoboBoi from "../assets/0001-0120.gif" 
 
 function Home(props) {
     return (
         <div className="content">
             <div className="welcome-card">
-                <div className="gif-alternates">
-                    {/* <a href="https://iconscout.com/illustrations/multi" target="_blank">Multi Tasking ceo handling multiple departments with ease Illustration</a> by <a href="https://iconscout.com/contributors/iconscout">Iconscout Freebies</a> on <a href="https://iconscout.com">Iconscout</a> */}
-                    <img src={Person} alt="couldn't load :(" width="400em"></img >
+                <div className="gif-alternates"> 
+                    <img src={RoboBoi} alt="couldn't load :(" width="400em"></img >
                 </div>
                 <div className="typo">
                     <h1 className="hero">Hello</h1>
@@ -28,7 +27,7 @@ function Home(props) {
                 </div>
                 <div className="gif">
                     {/* <a href="https://iconscout.com/illustrations/multi" target="_blank">Multi Tasking ceo handling multiple departments with ease Illustration</a> by <a href="https://iconscout.com/contributors/iconscout">Iconscout Freebies</a> on <a href="https://iconscout.com">Iconscout</a> */}
-                    <img src={Person} alt="couldn't load :(" width="400em"></img >
+                    <img src={RoboBoi} alt="couldn't load :(" width="400em"></img >
                 </div>
             </div>
         </div>

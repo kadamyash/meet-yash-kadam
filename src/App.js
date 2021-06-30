@@ -5,10 +5,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { React, useState } from 'react';
 import { Pane, Button, Heading, SideSheet, Switch, Position} from 'evergreen-ui'
 import About from './components/Content';
+import Logo from "./assets/sample.svg";
 import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Work from './components/Work-List';
 import Axebow from './components/axebow'; 
+import Contact from './components/contact';
 
 function App() {
   const [theme, setTheme] = useState("defaultTheme");
@@ -27,10 +29,10 @@ function App() {
     <div className="App" id={theme}>
       <Pane className="navbar" display="flex" padding={16} background="tint2" borderRadius={3}>
             <Pane flex={1} alignItems="center" display="flex">
-                <Heading size={600} className="fancy-font evergreen-text">YASH'S PAGE</Heading>
+                <Heading size={600} className="fancy-font evergreen-text"><a href="/"><img src={Logo} alt="YASH'S LOGO" width="40px"></img></a></Heading>
             </Pane>
             <Pane class="outer-options">
-                <Button className="evergreen-text" marginRight={15} appearance="minimal">Contact</Button>
+                <Button className="evergreen-text" marginRight={15} appearance="minimal"><a href="#contact" style={{textDecoration: 'none', color: 'inherit'}}>Contact</a></Button>
                 <Button marginRight={15} appearance="minimal"><a href="https://drive.google.com/file/d/1H0hB7fqStjy_vFeKPbXKKwGZPc53u_1Y/view?usp=sharing" download="Resume-Yash-Kadam" style={{textDecoration: 'none', color: 'inherit'}}>Resume</a></Button>
                 <button className="circle-button" onClick={() => setIsShown(true)}><FontAwesomeIcon size="1x" icon={faChevronCircleDown}/></button>
             </Pane>
@@ -54,6 +56,7 @@ function App() {
       <Skills></Skills>
       <Work></Work>
       <Axebow></Axebow>
+      <Contact></Contact>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import Person from "../assets/person-attribution-needed.png";
+import Person from "../assets/boy-going-to-the-school-2127130-0.svg";
 
 function Experience(props) {
     return (
@@ -37,7 +37,7 @@ function Experience(props) {
                 </div>
                 <div className="gif">
                     {/* <a href="https://iconscout.com/illustrations/multi" target="_blank">Multi Tasking ceo handling multiple departments with ease Illustration</a> by <a href="https://iconscout.com/contributors/iconscout">Iconscout Freebies</a> on <a href="https://iconscout.com">Iconscout</a> */}
-                    <img src={Person} alt="couldn't load :(" width="400em"></img >
+                    <img src={Person} alt="couldn't load :(" width="500em"></img >
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import Person from "../assets/person-attribution-needed.png";
+import Person from "../assets/guy-working-at-home-2127164-0.svg";
 import Avatar from "../assets/1624990816671.jpg";
 
 function About(props) {
@@ -8,7 +8,7 @@ function About(props) {
         <div className="content">
             <div className="welcome-card" id="about">
                 <div className="gif">
-                    {/* <a href="https://iconscout.com/illustrations/multi" target="_blank">Multi Tasking ceo handling multiple departments with ease Illustration</a> by <a href="https://iconscout.com/contributors/iconscout">Iconscout Freebies</a> on <a href="https://iconscout.com">Iconscout</a> */}
+                    
                     <img src={Person} alt="couldn't load :(" width="400em"></img >
                 </div>
                 <div className="typo">

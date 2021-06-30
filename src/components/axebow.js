@@ -17,7 +17,7 @@ function Axebow(props) {
                 <br></br>
                 <br></br>
                 <br></br>
-                <button className="custom-btn" intent="none"><a style={{color:'inherit', textDecoration: 'none'}} href="https://linktr.ee/axebow" rel="noreferrer" target="_blank">More about Axebow</a></button>
+                <button className="custom-btn" intent="none"><a style={{color:'inherit', textDecoration: 'none'}} href="https://djaxebow.editorx.io/axebow" rel="noreferrer" target="_blank">More about Axebow</a></button>
             </div>
         </div>
     );

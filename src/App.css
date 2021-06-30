@@ -241,6 +241,11 @@ html {
   flex-direction: column;
 }
 
+.flexRow{
+  display: flex; 
+  align-items: center;
+}
+
 .pre{
   white-space: pre-wrap;
 }
@@ -313,7 +318,7 @@ html {
 
   .grid-10-c{
     grid-template-columns: 100%;
-    margin: 10px 0;
+    padding: 10px 0;
   }
 
   .grid-33{
