@@ -3,6 +3,10 @@ import '../App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faGithub, faBehance } from '@fortawesome/free-brands-svg-icons'
 import { Pane } from 'evergreen-ui'
+import YTV from "../assets/View.png"
+import noteback from "../assets/noteback.jpg"
+import pastr from "../assets/pastr.jpg"
+import behance from "../assets/BEHANCE.jpg"
 
 function Work(props) {
     return (
@@ -16,7 +20,7 @@ function Work(props) {
                 <br></br>
                 <div className="grid-50-c">
                     <div className="card-flex">
-                        <div>IMG</div>
+                        <div><img src={YTV} alt="logo-project" width="50px"></img></div>
                         <div className="flex">
                         <a href="https://www.youtube.com/watch?v=LCbXXcoLbQM" style={{color: 'inherit'}} target="_blank" rel="noreferrer"><h3>DRIVE TO THE FUTURE</h3></a>
                             <p className="pre">
@@ -27,7 +31,7 @@ function Work(props) {
                         </div>
                     </div>
                     <div className="card-flex">
-                        <div>IMG</div>
+                        <div><img src={noteback} alt="logo-project" width="50px"></img></div>
                         <div className="flex">
                         <a href="https://noteback-beta.vercel.app/" style={{color: 'inherit'}} target="_blank" rel="noreferrer"><h3>NOTEBACK-BETA</h3></a>
                             <p className="pre">
@@ -38,7 +42,7 @@ function Work(props) {
                         </div>
                     </div>
                     <div className="card-flex">
-                        <div>IMG</div>
+                        <div><img src={behance} alt="logo-project" width="50px"></img></div>
                         <div className="flex">
                         <a href="https://behance.net/yashkadam4" style={{color: 'inherit'}} target="_blank" rel="noreferrer"><h3>BEHANCE UI DESIGN PORTFOLIO</h3></a>
                             <p className="pre">
@@ -49,7 +53,7 @@ function Work(props) {
                         </div>
                     </div>
                     <div className="card-flex">
-                        <div>IMG</div>
+                        <div><img src={pastr} alt="logo-project" width="50px"></img></div>
                         <div className="flex">
                         <a href="https://pastr-web.vercel.app/" style={{color: 'inherit'}} target="_blank" rel="noreferrer"><h3>PASTR-WEB</h3></a>
                             <p className="pre">
