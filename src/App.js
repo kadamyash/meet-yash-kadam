@@ -16,13 +16,29 @@ function App() {
   const [theme, setTheme] = useState("defaultTheme");
   const [isShown, setIsShown] = useState(false);
   const [checked, setChecked] = useState(false);
+  window.onload = function() {
+    const themeStorage = localStorage.getItem('theme');
+    setTheme(themeStorage);
+    if(themeStorage==='defaultTheme'){
+      setChecked(false);
+    }
+    else if(themeStorage==='darkTheme'){
+      setChecked(true);
+    }
+    else{
+      setChecked(false);
+      setTheme('defaultTheme');
+    }
+  };
 
   function switchTheme(){
     if(theme==="defaultTheme"){
       setTheme("darkTheme");
+      localStorage.setItem('theme', 'darkTheme');
     }
     else{
       setTheme("defaultTheme");
+      localStorage.setItem('theme', 'defaultTheme');
     }
   }
   return (

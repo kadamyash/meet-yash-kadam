@@ -30,9 +30,13 @@ function Experience(props) {
                         <div className="marker"></div>
                         <div>2019 - Internship - Weacom Technologies, Nashik</div>
                     </div>
-                    <div className="grid-10 style={{margin:'1em 0'}}">
+                    <div className="grid-10" style={{margin:'1em 0'}}>
                         <div className="marker"></div>
                         <div>2020 - Joined Capgemini India, Campus Placement</div>
+                    </div>
+                    <div className="grid-10" style={{margin:'1em 0'}}>
+                        <div className="marker"></div>
+                        <div>2021 - Internship - UX Design, IIT Bombay</div>
                     </div>
                 </div>
                 <div className="gif">
