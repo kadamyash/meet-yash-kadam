@@ -21,6 +21,10 @@ function Experience(props) {
                         <div className="marker"></div>
                         <div>2020 - B.E, Computer Science, Mumbai University (8.07 CGPI)</div>
                     </div>
+                    <div className="grid-10" style={{margin:'1em 0'}}>
+                        <div className="marker"></div>
+                        <div>2022 [Ongoing] - OCGC, UX Design, Humber College Institute of Technology & Advanced Learning,</div>
+                    </div>
                     <br></br>
                     <br></br>
                     <br></br>
