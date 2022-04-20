@@ -7,7 +7,7 @@ import RoboBoi from "../assets/0001-0120.gif"
 
 function Home(props) {
     return (
-        <div className="content">
+        <div className="content" id="fullscreen-mb">
             <div className="welcome-card">
                 <div className="gif-alternates"> 
                     <img src={RoboBoi} alt="couldn't load :(" width="400em"></img >

@@ -5,7 +5,7 @@ import Avatar from "../assets/1624990816671.jpg";
 
 function About(props) {
     return (
-        <div className="content">
+        <div className="content" id="fullscreen-mb">
             <div className="welcome-card" id="about">
                 <div className="gif">
                     

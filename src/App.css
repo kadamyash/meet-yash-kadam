@@ -288,6 +288,14 @@ html {
 
 /* phone screens */
 @media screen and (max-width: 800px){
+  .App{
+    height: auto;
+  }
+
+  #fullscreen-mb, #timeline{
+    height: 100vh;
+  }
+
   .welcome-card .gif{
     display: none;
   }
