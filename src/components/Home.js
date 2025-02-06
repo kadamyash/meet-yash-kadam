@@ -16,7 +16,7 @@ function Home(props) {
                     <h1 className="hero">Hello</h1>
                     <h1 className="hero-highlighted">I am Yash Kadam</h1>
                     <h1 className="hero">I design content</h1>
-                    <h1 className="hero" style={{color: 'orange'}}>Please check my updated 2022 portfolio <a href="https://kadamyash.github.io/uxd-portfolio">Here</a></h1>
+                    <h1 className="hero" style={{color: 'orange'}}>Please check my updated portfolio <a href="https://kadamyashdesign.vercel.app">Here</a></h1>
                     <br></br>
                     <button className="custom-btn" intent="none"><a style={{color:'inherit', textDecoration: 'none'}} href="#about">more about me</a></button>
                     <Pane marginTop={40} display="flex">
